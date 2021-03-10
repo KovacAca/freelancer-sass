@@ -72,6 +72,20 @@ aside {
   padding-right: 60px;
 }
 
+@media (max-width: 768px) {
+  aside {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding-right: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    height: 80vh;
+  }
+}
+
 aside img {
   width: 40%;
   border-radius: 50%;
@@ -113,6 +127,15 @@ aside a:hover {
   padding: 40px;
   overflow: scroll;
   height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .main {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    height: auto;
+  }
 }
 
 .main .about button {
@@ -158,6 +181,14 @@ aside a:hover {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
+}
+
+@media (max-width: 768px) {
+  .main .portfolio .row .col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
 }
 
 .main .portfolio .row .col img {
@@ -221,6 +252,8 @@ aside a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 40px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main footer .row form {
@@ -237,6 +270,14 @@ aside a:hover {
       flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  .main footer .row form {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
+}
+
 .main footer .row form input {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
@@ -245,6 +286,14 @@ aside a:hover {
   background: #f2f2f2;
   border: none;
   margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .main footer .row form input {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+  }
 }
 
 .main footer .row form textarea {
@@ -277,6 +326,15 @@ aside a:hover {
   transition: 0.3s ease;
 }
 
+@media (max-width: 768px) {
+  .main footer .row form button {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margi: 10px;
+  }
+}
+
 .main footer .row form button:hover {
   background: #8bebcd;
   border: 2px solid #8bebcd;
@@ -287,6 +345,16 @@ aside a:hover {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 28%;
           flex: 0 0 28%;
+}
+
+@media (max-width: 768px) {
+  .main footer .row .contact {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
 }
 
 .main footer .row .contact li {
